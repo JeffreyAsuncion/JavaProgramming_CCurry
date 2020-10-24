@@ -10,4 +10,11 @@ public class MySweetProgram {
 
 }
 
-
+// comment
+// class - Contains everything - has members
+// methods - do Something
+// properties - store something
+//
+// access modifier (public) - Who can use?
+// static - No instance of class is needed
+// object - instance of class
