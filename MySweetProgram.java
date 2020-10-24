@@ -21,7 +21,7 @@ public class MySweetProgram {
 // comment
 // class - Contains everything - has members
 // methods - do Something
-// arguments - What you pass to a meghod (part of the calling)
+// arguments - What you pass to a method (part of the calling)
 // parameter -  Variables to store arguments (part of definition)
 // statements - Telling the computer something
 // properties - store something
