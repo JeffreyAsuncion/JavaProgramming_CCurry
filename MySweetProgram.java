@@ -2,7 +2,7 @@
 public class MySweetProgram {
 
     public static void main(String[] args) { // methods
-        System.out.println("Hello there!");
+        System.out.println("Hello there!" + args[0]);
     
         var x = new MySweetProgram(); // creating an object
 	x.tacos();
