@@ -4,9 +4,17 @@ public class MySweetProgram {
     public static void main(String[] args) { // methods
         System.out.println("Hello there!");
     
+        var x = new MySweetProgram(); // creating an object
+	x.tacos();
+
+
     }
 
     String x = new String(); //property 
+
+    public void tacos() {   // method
+        System.out.println("Hello There Tacos!!!");
+    }
 
 }
 
