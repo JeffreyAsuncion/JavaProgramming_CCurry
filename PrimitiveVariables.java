@@ -1,23 +1,21 @@
 import java.util.Scanner;
 
 
-public class MySweetProgram2 {
+public class PrimitiveVariables {
 
     public static void main(String[] args) { // methods
-        System.out.println("What is your name? ");
-    
-  	// type identifier = new type();
-	Scanner scanner = new Scanner(System.in);     // created Scanner Object
-	String name = scanner.nextLine();
+        
+	int x = 5; // primitive
 
-	System.out.println("Hello " + name);
+	Integer y = 5; // object (5 is autoboxed)
+	
+	System.out.println(x);
+	System.out.println(y);
+
 
 	String string = new String("This is a string");  // created String Object
-	System.out.println(string + " :)");
 
-
-	// another way to make a string
-	String easier = "Wow, that was easy!!!";
+	String easier = "Wow, that was easy!!!" + string;
 	System.out.println(easier);
 
 
@@ -26,6 +24,15 @@ public class MySweetProgram2 {
     }
 
 }
+
+// 8 primitive types (boolean, byte, char, short, int, long, float, double)
+// objects - instance of a class (class the data type)
+
+// statically typed = variables are given data types up front (before compling)
+// dynamically typed = variables do not have types
+
+
+// data type = the type of the data. How the computer interprets the data
 
 // literals - the value 
 
